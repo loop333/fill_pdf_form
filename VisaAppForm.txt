@@ -1,0 +1,113 @@
+# Input PDF File Name
+in=Formulaire_SCH_eng_041214.pdf
+
+# Output PDF File Name
+out=out.pdf
+
+##### Page 1 #####
+page=1
+
+# Fill Data In Form x,y,size=Text
+
+# Surname
+170,675,12=SURNAME
+# Surname At Birth
+220,648,12=SURNAME0
+# First Name
+170,621,12=FIRSTNAME
+# Date Of Birth
+62,581,12=DD-MM-YYYY
+# Place Of Birth
+220,602,10=CITY
+# Country Of Birth
+230,587,10=COUNTRY
+# Nationality
+400,602,10=RUSSIAN
+
+# Sex: Male
+40,546,10=X
+# Marital Status: Divorced
+341,554,10=X
+# Type Of Travel Doc: Ordinary Passport
+49,461,10=X
+
+# Travel Document Number
+71,418,12=XX XXXXXXX
+# Date Of Issue
+189,418,12=DD-MM-YYYY
+# Valid Until
+280,418,12=DD-MM-YYYY
+# Issued By
+370,418,12=FMS XXXXX
+# Home Address & E-Mail
+39,375,12=City, Street, House-Flat, e-mail
+# Phone Number
+350,375,12=+X XXX XXXXXXX
+
+# Residence Other Than National: No
+49,325,10=X
+# Occupation
+145,302,12=Current Occupation
+# Employer
+39,261,10=Employer, Street, House, City, Russia, phone +X XXX XXXXXXX
+
+# Journey Purpose: Tourism
+51,225,10=X
+# Destination
+51,184,10=France
+# First Entry
+258,184,10=Finland
+# Entries Requested: Multiple Entries
+165,157,10=X
+
+# Duration Of Stay (Days)
+407,157,12=7
+
+# Schengen Visas Issued During Past 3 Years: Yes
+49,115,10=X
+
+# Date(s) Of Validity
+146,117,9=DD-MM-YYYY
+192,117,9=DD-MM-YYYY
+
+246,117,9=DD-MM-YYYY
+293,117,9=DD-MM-YYYY
+
+347,117,9=DD-MM-YYYY
+393,117,9=DD-MM-YYYY
+
+# Fingerprints: No
+49,86,10=X
+
+##### Page 2 #####
+page=2
+
+# Fill Data In Form x,y,size=Text
+
+# Arival
+130,799,12=DD-MM-YYYY
+# Departure
+390,799,12=DD-MM-YYYY
+
+# Hotel
+110,764,12=Hotel
+# Hotel Address
+39,729,12=House, Street, City, Country, e-mail
+# Hotel Phone & Fax
+465,733,12=+XXXXXXXXXXXX
+465,719,12=+XXXXXXXXXXXX
+
+# Cost Covered: By Applicant
+35,611,10=X
+# Means Of Support: Cash
+35,582,10=X
+# Means Of Support: Credit Card
+35,561,10=X
+# Means Of Support: Prepaid Accomodation
+35,550,10=X
+# Means Of Support: Prepaid Transport
+35,540,10=X
+
+# Place, Date
+46,398,10=CITY, DD-MM-YYYY
+46,80,10=CITY, DD-MM-YYYY

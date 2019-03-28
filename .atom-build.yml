@@ -1,0 +1,6 @@
+cmd:
+  docker run -t --rm --name {FILE_ACTIVE_NAME_BASE} -v {PROJECT_PATH}:/myapp -w /myapp openjdk:12 sh -c "javac -classpath '*' {FILE_ACTIVE_NAME} && java -classpath '.:*' -Dpdfbox.fontcache=/myapp {FILE_ACTIVE_NAME_BASE}"
+name: "Docker OpenJDK 12"
+sh: true
+errorMatch:
+  - "(?<file>[\\/0-9a-zA-Z\\._]+):(?<line>\\d+):\\s+(?<message>.+)"
